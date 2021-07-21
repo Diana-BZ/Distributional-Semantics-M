@@ -29,14 +29,14 @@ Then, we compute and print the Spearman Correlation between our scores and the h
 A summary of our Spearman correlation is below.
 
 Summary:
-Window=2 Weighting=FREQ (sim_2_FREQ_output.txt)
-	Correlation:0.131204319061681
+	Window=2 Weighting=FREQ (sim_2_FREQ_output.txt)
+		Correlation:0.131204319061681
 
-Window=2 Weighting=PMI (sim_2_PMI_output.txt)
-	Correlation:0.4586379716173717
+	Window=2 Weighting=PMI (sim_2_PMI_output.txt)
+		Correlation:0.4586379716173717
 
-Window=10 Weighting=PMI (sim_10_PMI_output.txt)
-	Correlation:0.22931898580868584
+	Window=10 Weighting=PMI (sim_10_PMI_output.txt)
+		Correlation:0.22931898580868584
 
 With window=2, Weighting=FREQ, the ten highest weighted features includes frequent words that occur often around all words.
 For example:
@@ -57,7 +57,7 @@ We attempted first the default gensim values of size=100, iter=5. However, the c
 We then modified the parameters until our scores stabilized, limiting the vector size and increasing iterations.
 
 Summary:
-Window=2 CBOW (sim_2_CBOW_output.txt)
+	Window=2 CBOW (sim_2_CBOW_output.txt)
 	Correlation:0.4301654800907899
 
 When evaluating our CBOW model, the model seems to capture some of the semantic similarities between word pairs.
