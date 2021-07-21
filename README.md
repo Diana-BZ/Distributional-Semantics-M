@@ -58,6 +58,7 @@ We attempted first the default gensim values of size=100, iter=5. However, the c
 We then modified the parameters until our scores stabilized, limiting the vector size and increasing iterations.
 
 Summary:
+	
 	Window=2 CBOW (sim_2_CBOW_output.txt)
 	Correlation:0.4301654800907899
 
