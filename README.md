@@ -29,6 +29,7 @@ Then, we compute and print the Spearman Correlation between our scores and the h
 A summary of our Spearman correlation is below.
 
 Summary:
+	
 	Window=2 Weighting=FREQ (sim_2_FREQ_output.txt)
 		Correlation:0.131204319061681
 
