@@ -40,6 +40,7 @@ Summary:
 
 With window=2, Weighting=FREQ, the ten highest weighted features includes frequent words that occur often around all words.
 For example:
+	
 	car: is:9 to:13 was:14 with:18 of:23 his:23 in:24 and:26 a:57 the:140
 	automobile: was:3 racing:4 by:4 to:4 in:5 state:5 an:5 and:6 of:8 the:20
 
